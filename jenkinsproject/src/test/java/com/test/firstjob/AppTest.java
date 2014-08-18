@@ -38,6 +38,6 @@ public class AppTest
     
     public void testGetString() {
     	App app = new App();
-    	assertEquals("Hello",app.getString("Helslo"));
+    	assertEquals("Hello",app.getString("Hello"));
     }
 }
